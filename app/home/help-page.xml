@@ -1,0 +1,19 @@
+<Page
+    navigatingTo="onNavigatingTo"  
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar>
+        <Label text="Help"></Label>
+       
+
+    </ActionBar>
+    
+    <GridLayout id="content" rows="auto,auto,auto, auto" width = "300"  height="400" >
+        <!-- Add your page content here -->
+        <Label id="label1" text-align="center" text-size="6"  textWrap ="true" text="Author: Blaise Mahoro in fulfillment of requirements for
+CMSC 4233/5233 Spring 2020 assignment 2" row= "0" />
+        <Button text ="Tap me!" row = "3" class=" -outline -rounded-sm btn btn-primarryary btn-active" background="green" tap="navigateToHelp"/>
+        <Image row="2" src="https://pictures.topspeed.com/IMG/jpg/201709/mercedes-amg-g-65-br-8.jpg" tap="onImageTap"/>
+        
+    </GridLayout>
+</Page>
